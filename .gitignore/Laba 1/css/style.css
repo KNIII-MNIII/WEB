@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+}
+
+.area {
+    display: flex;
+}
+
+/* House 1 */
+
+.house-1 {
+    margin-right: 30px;
+}
+
+.house-1 .krisha {
+    position: relative;
+    background: rgb(85, 52, 52);
+    height: 30px;
+    width: 300px;
+}
+
+.house-1 .etazh {
+    position: relative;
+    background: #333;
+    height: 200px;
+    width: 300px;
+    border-top: 5px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.house-1 .dver {
+    position: relative;
+    background: #fff;
+    height: 100px;
+    width: 80px;
+}
+
+.house-1 .okno {
+    position: relative;
+    height: 90px;
+    width: 90px;
+    background: #fff;
+    border: 7px solid rgb(28, 75, 177);
+    border-bottom: none;
+}
+
+.house-1 .balkon {
+    position: relative;
+    width: 170px;
+    height: 40px;
+    background: rgb(158, 89, 89);
+}
+
+/* House 2 */
+
+.house-2 {
+    margin-right: 30px;
+}
+
+.house-2 .krisha {
+    position: absolute;
+    background: rgb(85, 52, 52);
+    height: 30px;
+    width: 300px;
+}
+
+.house-2 .etazh-1 {
+    position: absolute;
+    top: 35px;
+    background: #333;
+    height: 200px;
+    width: 300px;
+    border-top: 5px solid #fff;
+}
+
+.house-2 .etazh-2 {
+    position: absolute;
+    top: 235px;
+    background: #333;
+    height: 200px;
+    width: 300px;
+    border-top: 5px solid #fff;
+}
+
+.house-2 .dver {
+    position: absolute;
+    background: #fff;
+    height: 100px;
+    width: 80px;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.house-2 .okno {
+    position: absolute;
+    height: 90px;
+    width: 90px;
+    background: #fff;
+    border: 7px solid rgb(28, 75, 177);
+    border-bottom: none;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.house-2 .balkon {
+    position: absolute;
+    width: 170px;
+    height: 40px;
+    background: rgb(158, 89, 89);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* House 3 */
+
+.house-3 {
+    position: fixed;
+    margin-right: 30px;
+    left: 660px;
+}
+
+.house-3 .krisha {
+    position: fixed;
+    background: rgb(85, 52, 52);
+    height: 30px;
+    width: 300px;
+}
+
+.house-3 .etazh-1 {
+    position: fixed;
+    top: 35px;
+    background: #333;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 5px solid #fff;
+}
+
+.house-3 .etazh-2 {
+    position: fixed;
+    top: 235px;
+    background: #333;
+    height: 200px;
+    width: 300px;
+    border-top: 5px solid #fff;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+}
+
+.house-3 .dver {
+    position: fixed;
+    background: #fff;
+    height: 100px;
+    width: 80px;
+}
+
+.house-3 .okno {
+    position: fixed;
+    height: 130px;
+    width: 90px;
+    background: #fff;
+    border: 7px solid rgb(28, 75, 177);
+    border-bottom: none;
+}
+
+.house-3 .balkon {
+    position: fixed;
+    width: 170px;
+    height: 40px;
+    background: rgb(158, 89, 89);
+}
